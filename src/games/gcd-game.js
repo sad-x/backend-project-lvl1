@@ -8,7 +8,7 @@ const gcd = (x, y) => {
     if (x > y) x %= y;
     else y %= x;
   }
-  return x + y;
+  return Number(x) + Number(y);
 };
 
 const generateCorrectAnswer = (question) => {
