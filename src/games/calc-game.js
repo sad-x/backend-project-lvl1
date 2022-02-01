@@ -5,7 +5,7 @@ import play from '../index.js';
 
 const generateCorrectAnswer = (question) => {
   const [x, operation, y] = question.split(' ');
-  if (operation === '+') return x + y;
+  if (operation === '+') return Number(x) + y;
   if (operation === '-') return x - y;
   return x * y;
 }
