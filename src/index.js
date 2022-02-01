@@ -21,7 +21,7 @@ const play = (rules, generateQuestion, generateCorrectAnswer, name) => {
       return;
     }
   }
-  console.log('Congratulations!');
+  console.log(`Congratulations, ${name}!`);
 }
 
 export default play;
